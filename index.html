@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AREI Outdoor Gear - Your Adventure Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between h-16">
+          <a href="index.html" class="flex items-center">
+            <span class="text-2xl font-bold text-orange-500">AREI</span>
+            <span class="text-sm text-gray-600 ml-2">OUTDOOR GEAR</span>
+          </a>
+
+          <nav class="hidden md:flex items-center space-x-8">
+            <a href="index.html" class="text-gray-700 hover:text-orange-500"
+              >Home</a
+            >
+
+            <a href="AboutUs.html" class="text-gray-700 hover:text-orange-500"
+              >About Us</a
+            >
+
+            <a href="Blog.html" class="text-gray-700 hover:text-orange-500"
+              >Blog</a
+            >
+
+            <a
+              href="CorporateOrder.html"
+              class="text-gray-700 hover:text-orange-500 font-medium"
+              >Corporate Order</a
+            >
+
+            <a href="Register.html" class="text-gray-700 hover:text-orange-500"
+              >Register</a
+            >
+          </nav>
+
+          <div class="flex items-center space-x-4">
+            <button class="text-gray-600 hover:text-orange-500">
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                ></path>
+              </svg>
+            </button>
+            <button class="text-gray-600 hover:text-orange-500">
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative h-screen max-h-[600px] bg-cover bg-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400');
+      "
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30"
+      ></div>
+      <div class="relative z-10 h-full flex items-center">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="max-w-xl">
+            <h1
+              class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6"
+            >
+              Adventure Awaits
+            </h1>
+            <p class="text-lg text-gray-200 mb-8">
+              Temukan perlengkapan outdoor berkualitas untuk petualangan Anda.
+              AREI - partner terpercaya sejak 1989.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#products"
+                class="bg-orange-500 text-white px-8 py-3 rounded-lg font-medium hover:bg-orange-600 transition-colors"
+              >
+                Lihat Produk
+              </a>
+              <a
+                href="about-us.html"
+                class="border border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-gray-800 transition-colors"
+              >
+                Tentang Kami
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">
+        Kategori Produk
+      </h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <a href="#" class="group relative h-64 rounded-lg overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400"
+            alt="Backpack"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
+          ></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-semibold">Backpack</h3>
+            <p class="text-sm text-gray-300">50+ Produk</p>
+          </div>
+        </a>
+
+        <a href="#" class="group relative h-64 rounded-lg overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400"
+            alt="Tent"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
+          ></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-semibold">Tent</h3>
+            <p class="text-sm text-gray-300">30+ Produk</p>
+          </div>
+        </a>
+
+        <a href="#" class="group relative h-64 rounded-lg overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400"
+            alt="Jacket"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
+          ></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-semibold">Jacket</h3>
+            <p class="text-sm text-gray-300">40+ Produk</p>
+          </div>
+        </a>
+
+        <a href="#" class="group relative h-64 rounded-lg overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=400"
+            alt="Sleeping Bag"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
+          ></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-semibold">Sleeping Bag</h3>
+            <p class="text-sm text-gray-300">25+ Produk</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="bg-gray-50 py-16">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">
+          Produk Unggulan
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6">
+          <!-- Product 1 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow"
+          >
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400"
+                alt="Backpack Pro 40L"
+                class="w-full h-56 object-cover"
+              />
+              <span
+                class="absolute top-2 left-2 bg-orange-500 text-white text-xs px-2 py-1 rounded"
+                >Best Seller</span
+              >
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800 mb-1">Backpack Pro 40L</h3>
+              <p class="text-sm text-gray-500 mb-2">Carrier Gunung</p>
+              <div class="flex items-center justify-between">
+                <span class="text-orange-500 font-bold">Rp 850.000</span>
+                <button class="text-gray-400 hover:text-orange-500">
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow"
+          >
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400"
+                alt="Dome Tent 4P"
+                class="w-full h-56 object-cover"
+              />
+              <span
+                class="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded"
+                >New</span
+              >
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800 mb-1">Dome Tent 4P</h3>
+              <p class="text-sm text-gray-500 mb-2">Tenda Camping</p>
+              <div class="flex items-center justify-between">
+                <span class="text-orange-500 font-bold">Rp 1.250.000</span>
+                <button class="text-gray-400 hover:text-orange-500">
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow"
+          >
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400"
+                alt="Windbreaker Jacket"
+                class="w-full h-56 object-cover"
+              />
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800 mb-1">
+                Windbreaker Jacket
+              </h3>
+              <p class="text-sm text-gray-500 mb-2">Jaket Outdoor</p>
+              <div class="flex items-center justify-between">
+                <span class="text-orange-500 font-bold">Rp 450.000</span>
+                <button class="text-gray-400 hover:text-orange-500">
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow"
+          >
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=400"
+                alt="Sleeping Bag -5°C"
+                class="w-full h-56 object-cover"
+              />
+              <span
+                class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded"
+                >Sale</span
+              >
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800 mb-1">
+                Sleeping Bag -5°C
+              </h3>
+              <p class="text-sm text-gray-500 mb-2">Sleeping Bag</p>
+              <div class="flex items-center justify-between">
+                <div>
+                  <span class="text-gray-400 line-through text-sm"
+                    >Rp 650.000</span
+                  >
+                  <span class="text-orange-500 font-bold ml-2">Rp 520.000</span>
+                </div>
+                <button class="text-gray-400 hover:text-orange-500">
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-8">
+          <a
+            href="#"
+            class="inline-block border-2 border-orange-500 text-orange-500 px-8 py-3 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-colors"
+          >
+            Lihat Semua Produk
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">
+        Mengapa Memilih AREI?
+      </h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-8 h-8 text-orange-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-2">Kualitas Terjamin</h3>
+          <p class="text-gray-600 text-sm">
+            Produk berkualitas tinggi dengan standar internasional
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-8 h-8 text-orange-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-2">Harga Terjangkau</h3>
+          <p class="text-gray-600 text-sm">
+            Dapatkan produk terbaik dengan harga bersaing
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-8 h-8 text-orange-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-2">Pengiriman Cepat</h3>
+          <p class="text-gray-600 text-sm">
+            Gratis ongkir untuk pembelian tertentu
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-8 h-8 text-orange-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-2">Layanan 24/7</h3>
+          <p class="text-gray-600 text-sm">
+            Customer service siap membantu kapan saja
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-orange-500 py-16">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-white mb-4">
+          Dapatkan Info Terbaru
+        </h2>
+        <p class="text-orange-100 mb-8">
+          Subscribe newsletter kami untuk mendapatkan promo dan info produk
+          terbaru
+        </p>
+        <form class="max-w-md mx-auto flex">
+          <input
+            type="email"
+            placeholder="Masukkan email Anda"
+            class="flex-1 px-4 py-3 rounded-l-lg focus:outline-none"
+          />
+          <button
+            type="submit"
+            class="bg-gray-900 text-white px-6 py-3 rounded-r-lg font-medium hover:bg-gray-800 transition-colors"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-xl font-bold text-orange-500 mb-4">AREI</h3>
+            <p class="text-gray-400 text-sm">
+              Your trusted partner for outdoor adventures since 1989.
+              Menyediakan perlengkapan outdoor berkualitas untuk petualangan
+              Anda.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-gray-400 text-sm">
+              <li>
+                <a href="about-us.html" class="hover:text-orange-500"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="blog.html" class="hover:text-orange-500">Blog</a>
+              </li>
+              <li>
+                <a href="corporate-order.html" class="hover:text-orange-500"
+                  >Corporate Order</a
+                >
+              </li>
+              <li>
+                <a href="register.html" class="hover:text-orange-500"
+                  >Register</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Contact</h4>
+            <ul class="space-y-2 text-gray-400 text-sm">
+              <li>Email: info@arei.co.id</li>
+              <li>Phone: (022) 1234567</li>
+              <li>Bandung, Indonesia</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Follow Us</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-orange-500">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-orange-500">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-orange-500">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm"
+        >
+          <p>&copy; 2024 AREI Outdoor Gear. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

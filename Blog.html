@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - AREI Outdoor Gear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between h-16">
+          <a href="index.html" class="flex items-center">
+            <span class="text-2xl font-bold text-orange-500">AREI</span>
+            <span class="text-sm text-gray-600 ml-2">OUTDOOR GEAR</span>
+          </a>
+
+          <nav class="hidden md:flex items-center space-x-8">
+            <a href="index.html" class="text-gray-700 hover:text-orange-500"
+              >Home</a
+            >
+
+            <a href="AboutUs.html" class="text-gray-700 hover:text-orange-500"
+              >About Us</a
+            >
+
+            <a href="Blog.html" class="text-gray-700 hover:text-orange-500"
+              >Blog</a
+            >
+
+            <a
+              href="CorporateOrder.html"
+              class="text-gray-700 hover:text-orange-500 font-medium"
+              >Corporate Order</a
+            >
+
+            <a href="Register.html" class="text-gray-700 hover:text-orange-500"
+              >Register</a
+            >
+          </nav>
+
+          <div class="flex items-center space-x-4">
+            <button class="text-gray-600 hover:text-orange-500">
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                ></path>
+              </svg>
+            </button>
+            <button class="text-gray-600 hover:text-orange-500">
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative h-64 md:h-80 bg-cover bg-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=1200');
+      "
+    >
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="relative z-10 h-full flex items-center justify-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-white">Blog</h1>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="max-w-7xl mx-auto px-4 py-4">
+      <div class="flex items-center space-x-2 text-sm text-gray-600">
+        <a href="index.html" class="hover:text-orange-500">Home</a>
+        <span>/</span>
+        <span class="text-orange-500">Blog</span>
+      </div>
+    </div>
+
+    <!-- Blog Content -->
+    <section class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid lg:grid-cols-3 gap-8">
+        <!-- Blog Posts -->
+        <div class="lg:col-span-2">
+          <div class="grid md:grid-cols-2 gap-6">
+            <!-- Blog Card 1 -->
+            <article
+              class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400"
+                alt="Hiking Tips"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-2">
+                  <span>15 Nov 2024</span>
+                  <span class="mx-2">•</span>
+                  <span>Tips & Tricks</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-gray-800 mb-2 hover:text-orange-500"
+                >
+                  <a href="#">10 Tips Hiking untuk Pemula</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-4">
+                  Panduan lengkap untuk memulai petualangan hiking pertama Anda
+                  dengan aman dan menyenangkan.
+                </p>
+                <a
+                  href="#"
+                  class="text-orange-500 text-sm font-medium hover:underline"
+                >
+                  Baca Selengkapnya →
+                </a>
+              </div>
+            </article>
+
+            <!-- Blog Card 2 -->
+            <article
+              class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400"
+                alt="Camping Guide"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-2">
+                  <span>10 Nov 2024</span>
+                  <span class="mx-2">•</span>
+                  <span>Camping</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-gray-800 mb-2 hover:text-orange-500"
+                >
+                  <a href="#">Panduan Memilih Tenda yang Tepat</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-4">
+                  Faktor-faktor penting yang perlu dipertimbangkan saat memilih
+                  tenda untuk berbagai kondisi.
+                </p>
+                <a
+                  href="#"
+                  class="text-orange-500 text-sm font-medium hover:underline"
+                >
+                  Baca Selengkapnya →
+                </a>
+              </div>
+            </article>
+
+            <!-- Blog Card 3 -->
+            <article
+              class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400"
+                alt="Mountain Climbing"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-2">
+                  <span>5 Nov 2024</span>
+                  <span class="mx-2">•</span>
+                  <span>Adventure</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-gray-800 mb-2 hover:text-orange-500"
+                >
+                  <a href="#">5 Gunung Terbaik untuk Pendaki Pemula</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-4">
+                  Rekomendasi gunung-gunung di Indonesia yang cocok untuk
+                  pendaki pemula.
+                </p>
+                <a
+                  href="#"
+                  class="text-orange-500 text-sm font-medium hover:underline"
+                >
+                  Baca Selengkapnya →
+                </a>
+              </div>
+            </article>
+
+            <!-- Blog Card 4 -->
+            <article
+              class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=400"
+                alt="Gear Review"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-2">
+                  <span>1 Nov 2024</span>
+                  <span class="mx-2">•</span>
+                  <span>Review</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-gray-800 mb-2 hover:text-orange-500"
+                >
+                  <a href="#">Review: Sleeping Bag AREI Terbaru</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-4">
+                  Ulasan lengkap tentang sleeping bag terbaru dari AREI dengan
+                  teknologi terkini.
+                </p>
+                <a
+                  href="#"
+                  class="text-orange-500 text-sm font-medium hover:underline"
+                >
+                  Baca Selengkapnya →
+                </a>
+              </div>
+            </article>
+
+            <!-- Blog Card 5 -->
+            <article
+              class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=400"
+                alt="Nature Photography"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-2">
+                  <span>28 Oct 2024</span>
+                  <span class="mx-2">•</span>
+                  <span>Photography</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-gray-800 mb-2 hover:text-orange-500"
+                >
+                  <a href="#">Tips Fotografi Alam untuk Pemula</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-4">
+                  Teknik dasar fotografi alam yang bisa langsung Anda
+                  praktikkan.
+                </p>
+                <a
+                  href="#"
+                  class="text-orange-500 text-sm font-medium hover:underline"
+                >
+                  Baca Selengkapnya →
+                </a>
+              </div>
+            </article>
+
+            <!-- Blog Card 6 -->
+            <article
+              class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=400"
+                alt="Backpacking"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-2">
+                  <span>25 Oct 2024</span>
+                  <span class="mx-2">•</span>
+                  <span>Backpacking</span>
+                </div>
+                <h3
+                  class="text-lg font-semibold text-gray-800 mb-2 hover:text-orange-500"
+                >
+                  <a href="#">Cara Packing yang Efisien untuk Hiking</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-4">
+                  Strategi packing yang tepat untuk membawa semua kebutuhan
+                  tanpa beban berlebih.
+                </p>
+                <a
+                  href="#"
+                  class="text-orange-500 text-sm font-medium hover:underline"
+                >
+                  Baca Selengkapnya →
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Pagination -->
+          <div class="flex justify-center mt-8 space-x-2">
+            <button
+              class="w-10 h-10 bg-orange-500 text-white rounded-lg font-medium"
+            >
+              1
+            </button>
+            <button
+              class="w-10 h-10 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300"
+            >
+              2
+            </button>
+            <button
+              class="w-10 h-10 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300"
+            >
+              3
+            </button>
+            <button
+              class="w-10 h-10 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300"
+            >
+              →
+            </button>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="lg:col-span-1">
+          <!-- Search -->
+          <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <h3 class="font-semibold text-gray-800 mb-4">Search</h3>
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="Cari artikel..."
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-orange-500"
+              />
+              <button
+                class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400"
+              >
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Categories -->
+          <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <h3 class="font-semibold text-gray-800 mb-4">Categories</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="flex justify-between text-gray-600 hover:text-orange-500"
+                >
+                  <span>Tips & Tricks</span>
+                  <span class="bg-gray-100 px-2 py-1 rounded text-xs">12</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex justify-between text-gray-600 hover:text-orange-500"
+                >
+                  <span>Camping</span>
+                  <span class="bg-gray-100 px-2 py-1 rounded text-xs">8</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex justify-between text-gray-600 hover:text-orange-500"
+                >
+                  <span>Adventure</span>
+                  <span class="bg-gray-100 px-2 py-1 rounded text-xs">15</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex justify-between text-gray-600 hover:text-orange-500"
+                >
+                  <span>Review</span>
+                  <span class="bg-gray-100 px-2 py-1 rounded text-xs">6</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex justify-between text-gray-600 hover:text-orange-500"
+                >
+                  <span>Photography</span>
+                  <span class="bg-gray-100 px-2 py-1 rounded text-xs">4</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Recent Posts -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="font-semibold text-gray-800 mb-4">Recent Posts</h3>
+            <div class="space-y-4">
+              <a href="#" class="flex space-x-3 group">
+                <img
+                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=100"
+                  alt=""
+                  class="w-16 h-16 object-cover rounded"
+                />
+                <div>
+                  <h4
+                    class="text-sm font-medium text-gray-800 group-hover:text-orange-500"
+                  >
+                    10 Tips Hiking untuk Pemula
+                  </h4>
+                  <span class="text-xs text-gray-500">15 Nov 2024</span>
+                </div>
+              </a>
+              <a href="#" class="flex space-x-3 group">
+                <img
+                  src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=100"
+                  alt=""
+                  class="w-16 h-16 object-cover rounded"
+                />
+                <div>
+                  <h4
+                    class="text-sm font-medium text-gray-800 group-hover:text-orange-500"
+                  >
+                    Panduan Memilih Tenda
+                  </h4>
+                  <span class="text-xs text-gray-500">10 Nov 2024</span>
+                </div>
+              </a>
+              <a href="#" class="flex space-x-3 group">
+                <img
+                  src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=100"
+                  alt=""
+                  class="w-16 h-16 object-cover rounded"
+                />
+                <div>
+                  <h4
+                    class="text-sm font-medium text-gray-800 group-hover:text-orange-500"
+                  >
+                    5 Gunung Terbaik
+                  </h4>
+                  <span class="text-xs text-gray-500">5 Nov 2024</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-xl font-bold text-orange-500 mb-4">AREI</h3>
+            <p class="text-gray-400 text-sm">
+              Your trusted partner for outdoor adventures since 1989.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-gray-400 text-sm">
+              <li>
+                <a href="about-us.html" class="hover:text-orange-500"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="blog.html" class="hover:text-orange-500">Blog</a>
+              </li>
+              <li>
+                <a href="corporate-order.html" class="hover:text-orange-500"
+                  >Corporate Order</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Contact</h4>
+            <ul class="space-y-2 text-gray-400 text-sm">
+              <li>Email: info@arei.co.id</li>
+              <li>Phone: (022) 1234567</li>
+              <li>Bandung, Indonesia</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Follow Us</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-orange-500">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-orange-500">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm"
+        >
+          <p>&copy; 2024 AREI Outdoor Gear. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
